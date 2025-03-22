@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>개발자 포트폴리오</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- 네비게이션 바 -->
+    <nav class="navbar">
+      <div class="nav-content">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero 섹션 -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>안녕하세요,<br>프론트엔드 개발자입니다</h1>
+        <p>사용자 경험을 중요시하는 웹 개발자입니다</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">프로젝트 보기</a>
+          <a href="#contact" class="btn secondary">연락하기</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About 섹션 -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>웹 개발에 대한 열정을 가지고 사용자 중심의 웹사이트를 만들고 있습니다. 
+            새로운 기술을 배우는 것을 좋아하며, 문제 해결에 즐거움을 느낍니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills 섹션 -->
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <div class="skills-content">
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <i class="fab fa-html5"></i>
+              <span>HTML5</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-css3-alt"></i>
+              <span>CSS3</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-js"></i>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects 섹션 -->
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">Project 1</div>
+          <h3>프로젝트 제목</h3>
+          <p>프로젝트 설명이 들어갑니다.</p>
+          <div class="project-links">
+            <a href="#" class="btn">Live Demo</a>
+            <a href="#" class="btn">Code</a>
+          </div>
+        </div>
+        <!-- 추가 프로젝트 카드들 -->
+      </div>
+    </section>
+
+    <!-- Contact 섹션 -->
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:your.email@example.com">your.email@example.com</a>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
